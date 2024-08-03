@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device=width, initial-scale=1.0">
+  <title>빌트인 객체 math</title>
+</head>
+<body>
+ 
+  <button id="draw">추첨</button>
+  <p id="number"></p>
+ 
+
+ <script>
+  const button = document = document.getElementById("draw")
+  const p = document.getElementById("number")
+
+  // 1 ~ 11 사이의 랜덤 숫자를 반환해준다.
+  let rn =Math.random()
+
+  // 주어진 숫자에서 소수점 이하를 제거해 반환해준다.
+  const MAX_NUM = 10
+  const MIN_NUM = 1
+  console.log(Math.floor(rn * MAX_NUM) + MIN_NUM)
+ </script>
+</body>
+</html>
